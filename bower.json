@@ -1,0 +1,30 @@
+{
+  "name": "App",
+  "version": "1.0.0",
+  "authors": [
+    ""
+  ],
+  "private": true,
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.x",
+    "angular-resource": "~1.4.0",
+    "papaparse": "~4.1.2"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.4.x"
+  },
+  "overrides": {
+    "angular-i18n": {
+      "main": [
+        "angular-locale_nl-nl.js"
+      ]
+    }
+  }
+}

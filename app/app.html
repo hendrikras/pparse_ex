@@ -1,0 +1,7 @@
+<div ng-controller="ContestantsController as vm">
+    <h1>Papa Parser example</h1>
+    <input type=file id="fileInput" onchange="angular.element(this).scope().vm.handleFile(this.files)">
+    <p class="error" ng-show="vm.error">{{vm.error}}</p>
+    <div><label>minimum age:</label></label><input type="number" ng-model="vm.minimum"></div>
+    <contestant-component></contestant-component>
+</div>

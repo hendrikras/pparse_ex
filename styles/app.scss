@@ -1,0 +1,45 @@
+// Sass libraries
+
+// Vendors
+
+// Fonts
+
+// Settings
+@import "settings/font-sizes";
+@import "settings/colors";
+
+
+// Utilities
+
+// Reset
+
+// Vendor Overrides
+
+// Base
+
+// Layout
+@import "layout/body";
+@import "layout/content";
+
+// Typography
+
+// Components
+
+// Pages
+h1 {
+    color: $color-teal;
+    margin-left: 20px;
+    font-size: $font-size-300;
+    font-family: Arial;
+}
+table{
+    margin:10px;
+    border:1px solid;
+    border-color: $color-teal;
+}
+td{
+    padding:10px;
+}
+p{
+    color:$color-red;
+}

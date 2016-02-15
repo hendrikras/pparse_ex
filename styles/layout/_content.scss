@@ -1,0 +1,21 @@
+/*
+Layout content
+
+Disable top and bottom margins of first and last child within the .content element
+
+Style guide: layout - content
+*/
+
+.content {
+    > *:first-child {
+        margin-top: 0;
+    }
+    > *:last-child {
+        margin-bottom: 0;
+    }
+
+    h1, h2, h3, h4, h5, h6, p, blockquote {
+        max-width: 40em;
+    }
+
+}

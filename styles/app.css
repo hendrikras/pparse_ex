@@ -1,0 +1,37 @@
+body {
+  color: #202014;
+  font-size: 16px;
+  font-family: "Matthew", "Arial", sans-serif; }
+
+/*
+Layout content
+
+Disable top and bottom margins of first and last child within the .content element
+
+Style guide: layout - content
+*/
+.content > *:first-child {
+  margin-top: 0; }
+
+.content > *:last-child {
+  margin-bottom: 0; }
+
+.content h1, .content h2, .content h3, .content h4, .content h5, .content h6, .content p, .content blockquote {
+  max-width: 40em; }
+
+h1 {
+  color: #3aa2a4;
+  margin-left: 20px;
+  font-size: 21px;
+  font-family: Arial; }
+
+table {
+  margin: 10px;
+  border: 1px solid;
+  border-color: #3aa2a4; }
+
+td {
+  padding: 10px; }
+
+p {
+  color: #f73032; }

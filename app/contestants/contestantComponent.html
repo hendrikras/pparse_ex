@@ -1,0 +1,12 @@
+<table>
+    <th>Name</th>
+    <th>Sirname</th>
+    <th>Birthdate</th>
+    <th>Age</th>
+    <tr ng-repeat="contestant in vm.contestants |  filter: vm.isBiggerThenMinimum">
+        <td>{{contestant.Name}}</td>
+        <td>{{contestant.Sirname}}</td>
+        <td>{{contestant.Occupation}}</td>
+        <td>{{contestant.Age}}</td>
+    </tr>
+</table>
